@@ -1,0 +1,17 @@
+BEST is a web application for comprehensive biomarker exploration on large-scale data in solid tumors. BEST delivers fast and customizable functions including clinical association, survival analysis, enrichment analysis, cell infiltration, immunomodulator, immunotherapy, candidate agents, and genomic alteration. Consistent performance across multiple independent datasets is the foundation for an excellent biomarker. Hence, BEST provides high quality cohorts for each specific cancer wherever possible. Users can first select one cancer type and then determine the input category—single gene or gene list for quick startup.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
