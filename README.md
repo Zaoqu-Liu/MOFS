@@ -9,6 +9,14 @@
 ![GitHub stars](https://img.shields.io/github/stars/Zaoqu-Liu/MOFS?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/Zaoqu-Liu/MOFS?style=social)
 [![License](https://img.shields.io/badge/License-GPL3-red)](https://github.com/Zaoqu-Liu/MOFS?tab=GPL-3.0-1-ov-file)
+![Coverage](https://img.shields.io/codecov/c/github/Zaoqu-Liu/MOFS)
+![Commit Activity](https://img.shields.io/github/commit-activity/m/Zaoqu-Liu/MOFS)
+![Last Commit](https://img.shields.io/github/last-commit/Zaoqu-Liu/MOFS)
+![Languages](https://img.shields.io/github/languages/top/Zaoqu-Liu/MOFS)
+![GitHub issues](https://img.shields.io/github/issues/Zaoqu-Liu/MOFS)
+
+
+
 
 <!-- badges: end -->
 
