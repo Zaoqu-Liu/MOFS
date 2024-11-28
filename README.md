@@ -1,3 +1,40 @@
+<div class="hex-container">
+    <div class="hex">
+        <img src="your-icon1.svg" alt="Icon 1">
+    </div>
+    <div class="hex">
+        <img src="your-icon2.svg" alt="Icon 2">
+    </div>
+    <div class="hex">
+        <img src="your-icon3.svg" alt="Icon 3">
+    </div>
+    <!-- 更多的六边形图标 -->
+</div>
+
+<style>
+    .hex-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    .hex {
+        width: 80px;
+        height: 80px;
+        background-color: #ddd;
+        clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .hex img {
+        width: 60%;
+    }
+</style>
+
+
+
+
 ## Multi-Modality Feature Selection
 
 This R script performs multi-modality clustering by integrating diverse biological data types, such as mutation, CNV, RNA and protein expression, pathology, and radiology. Its main goal is to determine the optimal number of clusters in a multi-modality dataset using Nonnegative Matrix Factorization (NMF) and Principal Component Analysis (PCA). These approaches are effective in identifying distinct biological subgroups within complex datasets, aiding in the understanding of disease mechanisms and discovery of new therapeutic targets.
