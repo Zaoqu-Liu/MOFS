@@ -4,6 +4,7 @@
 
 [![Version](https://img.shields.io/badge/Version-1.0.0-orange)](https://github.com/Zaoqu-Liu/MOFS/)
 [![Package](https://img.shields.io/badge/R_Pacakge-MOFSR-blue)](https://github.com/Zaoqu-Liu/MOFS/MOFSR)
+[![R-CMD-Check](https://img.shields.io/badge/R-CMD-Check-green)](https://github.com/Zaoqu-Liu/MOFS/MOFSR)
 [![License](https://img.shields.io/badge/License-GPL3-red)](https://github.com/Zaoqu-Liu/MOFS?tab=GPL-3.0-1-ov-file)
 
 <!-- badges: end -->
