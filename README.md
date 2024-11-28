@@ -1,6 +1,11 @@
 # MOFS: Multimodality Fusion Subtyping <img src="man/logo.jpg" alt="logo" align="right" height="200" width="180"/>
+<!-- badges: start -->
 
+[![version](https://img.shields.io/github/r-package/v/Zaoqu-Liu/MOFS)](https://github.com/Zaoqu-Liu/MOFS)
+[![codesize](https://img.shields.io/github/languages/code-size/Zaoqu-Liu/MOFS/MOFS.svg)](https://github.com/Zaoqu-Liu/MOFS)
+[![license](https://img.shields.io/github/license/Zaoqu-Liu/MOFS)](https://github.com/Zaoqu-Liu/MOFS)
 
+<!-- badges: end -->
 
 ## Multi-Modality Feature Selection
 
