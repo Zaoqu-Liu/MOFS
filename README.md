@@ -19,6 +19,9 @@ In the MOFS framework, multiple intermediate fusion strategies are employed base
 The MOFS framework represents a powerful tool for disease subtype classification by integrating multiple biological data modalities. Through the integration of intermediate fusion and late fusion strategies, MOFS uncovers novel disease subtypes and mechanisms that may be missed in single-modality approaches. This integrated approach not only enhances the accuracy and robustness of disease classification but also provides deeper insights into disease biology, potentially guiding more personalized diagnostic and therapeutic strategies.
 
 
+<img src="man/abstract.jpg" width="100%" />
+
+
 # MOFSR tool is designed for multimodal data fusion and analysis
 
 ### Feature Selection and Evaluation
