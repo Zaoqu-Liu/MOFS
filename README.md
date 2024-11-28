@@ -47,7 +47,7 @@ The MOFS framework represents a powerful tool for disease subtype classification
 2. **Single-Sample Pathway Activity Analysis using ssMwwGST**: The `ssMwwGST` function performs single-sample pathway activity analysis via the MWW-GST method. It calculates gene means and standard deviations, normalizes expression, assesses pathway enrichment, and corrects p-values. Taking gene expression data and gene sets as inputs, it returns matrices of NES, p-values, and FDR-adjusted p-values. These results help prioritize biologically relevant pathways, aiding in understanding underlying mechanisms and functions related to phenotypes or conditions.
 
 
-### Installation
+## Installation
 ```R
 if (!requireNamespace("devtools", quietly = TRUE)) {
   install.packages("devtools")
