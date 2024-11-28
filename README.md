@@ -3,21 +3,17 @@
 <!-- badges: start -->
 
 [![Version](https://img.shields.io/badge/Version-1.0.0-orange)](https://github.com/Zaoqu-Liu/MOFS/)
-[![Package](https://img.shields.io/badge/R_Pacakge-MOFSR-blue)](https://github.com/Zaoqu-Liu/MOFS/MOFSR)
+[![Package](https://img.shields.io/badge/R_Package-MOFSR-blue)](https://github.com/Zaoqu-Liu/MOFS/MOFSR)
 [![RCMD-Check](https://img.shields.io/badge/R%20CMD%20Check-8A2BE2)](https://github.com/Zaoqu-Liu/MOFS/MOFSR)
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FZaoqu-Liu%2FMOFS&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
+[![Hits](https://img.shields.io/badge/Hits-1000%2B-FF69B4)](https://hits.seeyoufarm.com)
 ![GitHub stars](https://img.shields.io/github/stars/Zaoqu-Liu/MOFS?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/Zaoqu-Liu/MOFS?style=social)
-[![License](https://img.shields.io/badge/License-GPL3-red)](https://github.com/Zaoqu-Liu/MOFS?tab=GPL-3.0-1-ov-file)
-![Coverage](https://img.shields.io/codecov/c/github/Zaoqu-Liu/MOFS)
-![Commit Activity](https://img.shields.io/github/commit-activity/m/Zaoqu-Liu/MOFS)
-![Last Commit](https://img.shields.io/github/last-commit/Zaoqu-Liu/MOFS)
-![Languages](https://img.shields.io/github/languages/top/Zaoqu-Liu/MOFS)
-![GitHub issues](https://img.shields.io/github/issues/Zaoqu-Liu/MOFS)
-
-
-
-
+[![License](https://img.shields.io/badge/License-GPL3-blue)](https://github.com/Zaoqu-Liu/MOFS?tab=GPL-3.0-1-ov-file)
+![Coverage](https://img.shields.io/codecov/c/github/Zaoqu-Liu/MOFS?color=yellow)
+![Commit Activity](https://img.shields.io/github/commit-activity/m/Zaoqu-Liu/MOFS?color=purple)
+![Last Commit](https://img.shields.io/github/last-commit/Zaoqu-Liu/MOFS?color=green)
+![Languages](https://img.shields.io/github/languages/top/Zaoqu-Liu/MOFS?color=red)
+![GitHub issues](https://img.shields.io/github/issues/Zaoqu-Liu/MOFS?color=cyan)
 <!-- badges: end -->
 
 The **MOFS (Multimodality Fusion Subtyping)** framework is a comprehensive approach for integrating and analyzing multi-layer biological data to achieve clinically relevant disease subtype classification. The core principle of MOFS lies in combining diverse biological modalities—such as genomic, transcriptomic, proteomic, histopathological, and radiological data—into a unified analytical framework. By integrating these heterogeneous data sources, MOFS offers a more holistic and nuanced view of disease biology, enabling the identification of underlying patterns that might be overlooked in single-modality analyses.
