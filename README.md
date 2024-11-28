@@ -3,8 +3,8 @@
 <!-- badges: start -->
 
 [![Version](https://img.shields.io/badge/Version-1.0.0-orange)](https://github.com/Zaoqu-Liu/MOFS/)
-[![Package](https://img.shields.io/badge/R_Package-MOFSR-blue)](https://github.com/Zaoqu-Liu/MOFS/MOFSR)
-[![RCMD-Check](https://img.shields.io/badge/R%20CMD%20Check-bc6c25)](https://github.com/Zaoqu-Liu/MOFS/MOFSR)
+[![Package](https://img.shields.io/badge/R_Package-MOFSR-blue)](https://github.com/Zaoqu-Liu/MOFS/MOFSR/MOFSR)
+[![RCMD-Check](https://img.shields.io/badge/R%20CMD%20Check-yellow)](https://github.com/Zaoqu-Liu/MOFS/MOFSR)
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FZaoqu-Liu%2FMOFS&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 [![License](https://img.shields.io/badge/License-GPL3-red)](https://github.com/Zaoqu-Liu/MOFS?tab=GPL-3.0-1-ov-file)
 ![GitHub stars](https://img.shields.io/github/stars/Zaoqu-Liu/MOFS?style=social)
