@@ -1,36 +1,3 @@
-<div class="hex-container">
-    <div class="hex">
-        <img src="your-icon1.svg" alt="Icon 1">
-    </div>
-    <div class="hex">
-        <img src="your-icon2.svg" alt="Icon 2">
-    </div>
-    <div class="hex">
-        <img src="your-icon3.svg" alt="Icon 3">
-    </div>
-    <!-- 更多的六边形图标 -->
-</div>
-
-<style>
-    .hex-container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 10px;
-    }
-    .hex {
-        width: 80px;
-        height: 80px;
-        background-color: #ddd;
-        clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .hex img {
-        width: 60%;
-    }
-</style>
 
 
 
