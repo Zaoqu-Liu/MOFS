@@ -1,4 +1,4 @@
-
+# MOFS: Multimodality Fusion Subtyping <img src="man/logo.jpg" alt="logo" align="right" height="140" width="120"/>
 
 
 
