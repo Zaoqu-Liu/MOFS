@@ -313,9 +313,12 @@ allres <- RunMOFS(data = data_list,  # Input multi-modality dataset
 
 <p align="center">
   <a href="https://clustrmaps.com/site/1c32n" title="Visit tracker">
-    <img src="https://www.clustrmaps.com/map_v2.png?d=_vogv3DGZKPfHE6Dm7QUcVRJ6R6O-VuMWV1JVQGCmAM&cl=ffffff" alt="Visit tracker map" />
+    <img src="https://www.clustrmaps.com/map_v2.png?d=_vogv3DGZKPfHE6Dm7QUcVRJ6R6O-VuMWV1JVQGCmAM&cl=ffffff" 
+         alt="Visit tracker map" 
+         width="800" />
   </a>
 </p>
+
 
 
 
