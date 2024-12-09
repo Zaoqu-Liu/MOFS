@@ -311,6 +311,10 @@ allres <- RunMOFS(data = data_list,  # Input multi-modality dataset
                   silhouette.cutoff = 0.4)  # Silhouette cutoff value for core sample selection
 ```
 
+<p align="center">
+<a href="https://clustrmaps.com/site/1c32n"  title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=_vogv3DGZKPfHE6Dm7QUcVRJ6R6O-VuMWV1JVQGCmAM&cl=ffffff" /></a>
+</p>
+
 
 |Package                   |Title                                                                                                                                                             |Version     |License                                     |
 |:-------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------|:-------------------------------------------|
