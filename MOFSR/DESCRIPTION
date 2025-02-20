@@ -1,0 +1,16 @@
+Package: MOFSR
+Type: Package
+Title: Multimodality Fusion Subtyping
+Author: Zaoqu Liu [aut, cre] (<https://orcid.org/0000-0002-0452-742X>)
+Maintainer: Zaoqu Liu <liuzaoqu@163.com>
+Authors@R: c(person("Zaoqu", "Liu", email = "liuzaoqu@163.com", role = c("aut", "cre"),comment=c(ORCID="0000-0002-0452-742X")))
+Description: MOFSR is capable of integrating multimodal biological data. It can discover potential disease subtypes and biological mechanisms through a variety of clustering algorithms and feature selection methods. Additionally, it enables cluster quality assessment, classification prediction, and functional enrichment analysis, facilitating in-depth analysis and interpretation of biological data and promoting the development of precision medicine and related research.
+Version: 1.2.0
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 2.10)
+RoxygenNote: 7.3.1
+Imports: 
+    dplyr
