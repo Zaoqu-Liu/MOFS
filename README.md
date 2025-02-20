@@ -55,6 +55,7 @@ if (!requireNamespace("devtools", quietly = TRUE)) {
   install.packages("devtools")
 }
 devtools::install_github('Zaoqu-Liu/MOFS', subdir = 'MOFSR')
+MOFSR::init()
 ```
 
 ## Multi-Modality Feature Selection
