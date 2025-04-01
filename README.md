@@ -3,14 +3,15 @@
 <!-- badges: start -->
 
 [![Version](https://img.shields.io/badge/Version-1.0.0-orange)](https://github.com/Zaoqu-Liu/MOFS/)
-[![Package](https://img.shields.io/badge/R_Package-MOFSR-blue)](https://github.com/Zaoqu-Liu/MOFS/MOFSR/MOFSR)
-[![RCMD-Check](https://img.shields.io/badge/R%20CMD%20Check-yellow)](https://github.com/Zaoqu-Liu/MOFS/MOFSR)
-(https://hits.seeyoufarm.com)
-[![License](https://img.shields.io/badge/License-GPL3-red)](https://github.com/Zaoqu-Liu/MOFS?tab=GPL-3.0-1-ov-file)
+[![R Package](https://img.shields.io/badge/R_Package-MOFSR-blue)](https://github.com/Zaoqu-Liu/MOFS/tree/master/MOFSR)
+[![R CMD Check](https://img.shields.io/badge/R%20CMD%20Check-yellow)](https://github.com/Zaoqu-Liu/MOFS/actions)
+[![License](https://img.shields.io/badge/License-GPL3-red)](https://github.com/Zaoqu-Liu/MOFS/blob/master/LICENSE)
 [![Manual](https://img.shields.io/badge/Manual-User-2a9d8f)](https://github.com/Zaoqu-Liu/MOFS/blob/master/MOFSR%20User%20Manual.pdf)
-[![ShinyApp](https://img.shields.io/badge/Shiny-APP-f28482)](https://github.com/Zaoqu-Liu/MOFS/tree/master/MOFS-ShinyApp)
-[![RCMD-Check](https://img.shields.io/badge/Feedback-c77dff)](liuzaoqu@163.com)
+[![Shiny App](https://img.shields.io/badge/Shiny-App-f28482)](https://github.com/Zaoqu-Liu/MOFS/tree/master/MOFS-ShinyApp)
+[![Feedback](https://img.shields.io/badge/Feedback-Email-c77dff)](mailto:liuzaoqu@163.com)
+
 <!-- badges: end -->
+
 
 The **MOFS (Multimodality Fusion Subtyping)** framework is a comprehensive approach for integrating and analyzing multi-layer biological data to achieve clinically relevant disease subtype classification. The core principle of MOFS lies in combining diverse biological modalities—such as genomic, transcriptomic, proteomic, histopathological, and radiological data—into a unified analytical framework. By integrating these heterogeneous data sources, MOFS offers a more holistic and nuanced view of disease biology, enabling the identification of underlying patterns that might be overlooked in single-modality analyses.
 
