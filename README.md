@@ -36,7 +36,7 @@ If you use MOFS in your research, please cite our work:
   year={2025},
   doi={10.1038/s41467-025-58675-9}
 }
-
+```
 
 # MOFSR tool is designed for multimodal data fusion and analysis
 
