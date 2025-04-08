@@ -24,6 +24,19 @@ The MOFS framework represents a powerful tool for disease subtype classification
 
 <img src="man/abstract.jpg" width="100%" />
 
+## Citation
+
+If you use MOFS in your research, please cite our work:
+
+```bibtex
+@article{liu2025multimodal,
+  title={Multimodal fusion of radio-pathology and proteogenomics identify integrated glioma subtypes with prognostic and therapeutic opportunities},
+  author={Liu, Zaoqu and Wu, Yushuai and Xu, Hui and Wang, Minkai and others},
+  journal={Nature Communications},
+  year={2025},
+  doi={10.1038/s41467-025-58675-9}
+}
+
 
 # MOFSR tool is designed for multimodal data fusion and analysis
 
