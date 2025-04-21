@@ -57,7 +57,7 @@ RunMOFS <- function(data, methods, max.clusters = 6, optimal.clusters = 3,
 
   # Use lapply to run each clustering function via RunIF and store the results in a list
   res <- lapply(methods, function(m) {
-    RunIF(data = data, method = m, N.clust = optimal.clusters, ...)
+    RunIF(data = data, algorithm = m, N.clust = optimal.clusters, ...)
   })
   names(res) <- methods
 
