@@ -3,7 +3,7 @@
 <!-- badges: start -->
 
 [![Version](https://img.shields.io/badge/Version-1.0.0-orange)](https://github.com/Zaoqu-Liu/MOFS/)
-[![R Package](https://img.shields.io/badge/R_Package-MOFSR-blue)](https://github.com/Zaoqu-Liu/MOFS/tree/master/MOFSR)
+[![R Package](https://img.shields.io/badge/R_Package-MOFSR-blue)](https://github.com/Zaoqu-Liu/MOFSR)
 [![R CMD Check](https://img.shields.io/badge/R%20CMD%20Check-yellow)](https://github.com/Zaoqu-Liu/MOFS/actions)
 [![License](https://img.shields.io/badge/License-GPL3-red)](https://github.com/Zaoqu-Liu/MOFS/blob/master/LICENSE)
 [![Manual](https://img.shields.io/badge/Manual-User-2a9d8f)](https://github.com/Zaoqu-Liu/MOFS/blob/master/MOFSR%20User%20Manual.pdf)
@@ -14,6 +14,10 @@
 
 
 The **MOFS (Multimodality Fusion Subtyping)** framework is a comprehensive approach for integrating and analyzing multi-layer biological data to achieve clinically relevant disease subtype classification. The core principle of MOFS lies in combining diverse biological modalities—such as genomic, transcriptomic, proteomic, histopathological, and radiological data—into a unified analytical framework. By integrating these heterogeneous data sources, MOFS offers a more holistic and nuanced view of disease biology, enabling the identification of underlying patterns that might be overlooked in single-modality analyses.
+
+> **R package repository:** Active MOFSR development, installation, tests, and
+> documentation now live at [Zaoqu-Liu/MOFSR](https://github.com/Zaoqu-Liu/MOFSR).
+> The `MOFSR/` directory in this repository is a legacy snapshot.
 
 Integrating multimodal data reveals causal features that may be obscured in single-modality analyses, offering a more complete understanding of diseases. Multimodal data fusion can be categorized into early, intermediate, and late fusion based on the timing of integration. **Intermediate fusion** integrates data during clustering, allowing for the identification of multimodal joint clusters, capturing dependencies between different omics layers, and revealing underlying biological mechanisms. Intermediate fusion is generally considered more advanced than both early and late fusion, but it demands more sophisticated integration algorithms.
 
@@ -68,9 +72,18 @@ If you use MOFS in your research, please cite our work:
 if (!requireNamespace("devtools", quietly = TRUE)) {
   install.packages("devtools")
 }
-devtools::install_github('Zaoqu-Liu/MOFS', subdir = 'MOFSR')
-MOFSR::init()
+remotes::install_github("Zaoqu-Liu/MOFSR")
 ```
+
+### Pathology whole-slide images
+
+MOFSR does not consume `.svs`, `.ndpi`, `.scn`, or `.mrxs` pixels directly.
+Use QuPath to extract measurements or calibrated tiles, aggregate them into one
+numeric feature vector per biological sample, and pass the resulting
+**features × samples** matrix as the pathology modality. See the complete
+[WSI feature workflow](https://github.com/Zaoqu-Liu/MOFSR/blob/master/vignettes/wsi-feature-workflow.Rmd),
+including format caveats, QuPath export steps, R conversion code, sample
+alignment, and quality-control requirements.
 
 ## Multi-Modality Feature Selection
 
@@ -787,4 +800,3 @@ al.                                                                             
 |farver                    |High Performance Colour Space Manipulation                                                                                                                        |2.1.2       |MIT + file LICENSE                          |
 |zip                       |Cross-Platform 'zip' Compression                                                                                                                                  |2.3.1       |MIT + file LICENSE                          |
 |gplots                    |Various R Programming Tools for Plotting Data                                                                                                                     |3.1.3.1     |GPL-2                                       |
-
